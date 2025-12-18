@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>David King'asia | Portfolio</title>
-  <meta name="description" content="Portfolio of David King'asia – Software Engineer, Backend & Full‑Stack Developer." />
+  <meta name="description"
+    content="Portfolio of David King'asia – Software Engineer, Backend & Full‑Stack Developer." />
   <style>
     :root {
       --primary: #1f2937;
@@ -13,7 +15,11 @@
       --text: #111827;
       --muted: #6b7280;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
@@ -21,43 +27,65 @@
       background: var(--bg);
       line-height: 1.6;
     }
+
     header {
       background: var(--primary);
       color: #fff;
       padding: 4rem 1.5rem;
       text-align: center;
     }
-    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    header p { max-width: 700px; margin: 0 auto 1.5rem; color: #d1d5db; }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+      color: #d1d5db;
+    }
+
     nav a {
       color: #e5e7eb;
       margin: 0 0.75rem;
       text-decoration: none;
       font-weight: 500;
     }
-    nav a:hover { color: #fff; }
+
+    nav a:hover {
+      color: #fff;
+    }
+
     section {
       max-width: 1000px;
       margin: auto;
       padding: 0.5rem 1.5rem;
     }
+
     section h2 {
       font-size: 1.75rem;
       margin-bottom: 1.5rem;
       color: var(--primary);
     }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1.5rem;
     }
+
     .card {
       background: #fff;
       padding: 1.5rem;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
-    .card h3 { margin-top: 0; }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
     .tag {
       display: inline-block;
       background: #e0e7ff;
@@ -67,186 +95,209 @@
       border-radius: 6px;
       font-size: 0.75rem;
     }
+
     footer {
       background: #111827;
       color: #9ca3af;
       text-align: center;
       padding: 2rem 1rem;
     }
-    footer a { color: #93c5fd; text-decoration: none; }
+
+    footer a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>David King'asia</h1>
-  <p>Software Engineer | Backend & Full‑Stack Developer
-     passionate about building scalable systems, data‑driven solutions, and reliable web infrastructure.</p>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <header>
+    <h1>David King'asia</h1>
+    <section id="profile-image" style="text-align:center; padding: 1.5rem 1.5rem;">
+      <img src="pic.jpg" alt="David King'asia"
+        style="width:180px; height:180px; object-fit:cover; border-radius:50%; box-shadow:0 8px 20px rgba(0,0,0,0.15);" />
+    </section>
+    <p>Software Engineer | Backend & Full‑Stack Developer
+      passionate about building scalable systems, data‑driven solutions, and reliable web infrastructure.</p>
+    <nav>
+      <a href="#intro-video">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section id="profile-image" style="text-align:center; padding: 1.5rem 1.5rem;">
-  <img src="pic.jpg" alt="David King'asia" style="width:180px; height:180px; object-fit:cover; border-radius:50%; box-shadow:0 8px 20px rgba(0,0,0,0.15);" />
-</section>
+  <section id="intro-video">
+    <h2>Elevator Pitch</h2>
 
-<section id="about" style="padding-top: 0.0rem;">
-  <h2>About Me</h2>
-  <p>
-    I am a results-driven software developer with strong experience in building, deploying,
-    and maintaining production-ready web and mobile applications. I specialize in backend
-    and full-stack development, with a growing focus on mobile solutions using Flutter.
-  </p>
-  <p>
-    I have worked across the full software development lifecycle — from requirements analysis
-    and system design, to implementation, deployment, and post-release support. My experience
-    includes developing scalable APIs, e-commerce platforms, mobile applications, and
-    data-driven systems that solve real business problems.
-  </p>
-  <p>
-    I am comfortable working with modern development tools and infrastructure, including
-    containerization, Linux-based servers, cloud deployments, and CI/CD workflows. I value
-    clean code, system reliability, and continuous improvement, and I enjoy collaborating
-    with cross-functional teams to deliver impactful solutions.
-  </p>
+    <figure style="text-align:center;">
+      <iframe width="100%" height="350" src="video1903996495.mp4" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <figcaption style="font-size:14px; margin-top:10px; color:#666;">
+        50-second Elevator Pitch: Who I Am & What I Do
+      </figcaption>
+    </figure>
+  </section>
 
-  <p><em>It will be my pleasure working with you.</em></p>
-</section>
-
-<section id="skills">
-  <h2>Technical Skills</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Backend Engineering</h3>
-      <p>
-        Design, development, and maintenance of scalable server-side applications and RESTful APIs
-        with a strong focus on performance, security, and reliability.
-      </p>
-      <span class="tag">Laravel</span>
-      <span class="tag">Django</span>
-      <span class="tag">Flask</span>
-      <span class="tag">REST APIs</span>
-      <span class="tag">Authentication & Authorization</span>
-      <span class="tag">SQLAlchemy</span>
-    </div>
-
-    <div class="card">
-      <h3>Mobile & Frontend Development</h3>
-      <p>
-        Development of production-ready cross-platform mobile applications and responsive user
-        interfaces with emphasis on usability and maintainability.
-      </p>
-      <span class="tag">Flutter</span>
-      <span class="tag">Android (Google Play Console)</span>
-      <span class="tag">HTML</span>
-      <span class="tag">CSS</span>
-      <span class="tag">JavaScript</span>
-    </div>
-
-    <div class="card">
-      <h3>Databases & Data Systems</h3>
-      <p>
-        Relational database design, data modeling, query optimization, and reporting for
-        business-critical applications.
-      </p>
-      <span class="tag">MySQL</span>
-      <span class="tag">SQL</span>
-      <span class="tag">Database Design</span>
-      <span class="tag">ETL</span>
-      <span class="tag">Power BI</span>
-      <span class="tag">Advanced Excel</span>
-    </div>
-
-    <div class="card">
-      <h3>DevOps, Deployment & Infrastructure</h3>
-      <p>
-        Deployment and operation of web applications on Linux-based environments, including
-        containerization, web server configuration, and CI/CD workflows.
-      </p>
-      <span class="tag">Docker</span>
-      <span class="tag">Nginx</span>
-      <span class="tag">Linux</span>
-      <span class="tag">Git</span>
-      <span class="tag">CI/CD</span>
-      <span class="tag">Cloud Deployment</span>
-    </div>
-
-    <div class="card">
-      <h3>Software Engineering Practices</h3>
-      <p>
-        Strong adherence to professional software engineering principles, focusing on code quality,
-        collaboration, and long-term maintainability.
-      </p>
-      <span class="tag">System Design</span>
-      <span class="tag">Debugging & Troubleshooting</span>
-      <span class="tag">Version Control</span>
-      <span class="tag">Agile / Scrum</span>
-      <span class="tag">Technical Documentation</span>
-    </div>
-  </div>
-</section>
-
-<section id="experience">
-  <h2>Mobile App Experience</h2>
-  <div class="card">
-    <h3>Flutter Mobile Applications</h3>
+  <section id="about" style="padding-top: 0.0rem;">
+    <h2>About Me</h2>
     <p>
-      Built, tested, and deployed <strong>4 production mobile applications</strong> using Flutter,
-      successfully published on the <strong>Google Play Store</strong> via Google Play Console.
+      I am a results-driven software developer with strong experience in building, deploying,
+      and maintaining production-ready web and mobile applications. I specialize in backend
+      and full-stack development, with a growing focus on mobile solutions using Flutter.
     </p>
-    <ul>
-      <li>End-to-end app development (UI, state management, API integration)</li>
-      <li>Release management, versioning, and store compliance</li>
-      <li>Bug fixes, updates, and performance improvements post-deployment</li>
-    </ul>
-  </div>
-</section>
+    <p>
+      I have worked across the full software development lifecycle — from requirements analysis
+      and system design, to implementation, deployment, and post-release support. My experience
+      includes developing scalable APIs, e-commerce platforms, mobile applications, and
+      data-driven systems that solve real business problems.
+    </p>
+    <p>
+      I am comfortable working with modern development tools and infrastructure, including
+      containerization, Linux-based servers, cloud deployments, and CI/CD workflows. I value
+      clean code, system reliability, and continuous improvement, and I enjoy collaborating
+      with cross-functional teams to deliver impactful solutions.
+    </p>
 
-<section id="projects">
-  <h2>Selected Projects</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Nipromote Market</h3>
-      <p> A modern online platform designed for selling hardware items. Built with a focus on 
-        accessibility and scalability, the application provides a seamless shopping experience 
-        across both Android and Web platforms.</p>
-      <p><strong>Tech:</strong> Flutter, Android, Firebase</p>
-    </div>
-    <div class="card">
-      <h3>AirBnB Clone – Deployment</h3>
-      <p>Automated deployment and configuration of web servers, load balancing, and static content
-         delivery for a scalable web application.</p>
-      <p><strong>Tech:</strong> Nginx, Fabric, Bash, Linux</p>
-    </div>
-    <div class="card">
-      <h3>Data Reporting & Analytics</h3>
-      <p>Designed and implemented data pipelines and dashboards to visualize CTQ metrics and
-         operational insights.</p>
-      <p><strong>Tech:</strong> Power BI, MySQL, Excel</p>
-    </div>
-  </div>
-</section>
+    <p><em>It will be my pleasure working with you.</em></p>
+  </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>If you'd like to collaborate, hire me, or discuss a project, feel free to reach out.</p>
-  <p>
-    📧 Email: <a href="mailto:kingasiadavid41@gmail.com">kingasiadavid41@gmail.com</a><br />
-    💻 GitHub: <a href="https://github.com/Dev-Kings" target="_blank">github.com/Dev-Kings</a><br />
-    🔗 LinkedIn: <a href="https://www.linkedin.com/in/davidkingasia/" target="_blank">https://www.linkedin.com/in/davidkingasia/</a>
-  </p>
-</section>
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Backend Engineering</h3>
+        <p>
+          Design, development, and maintenance of scalable server-side applications and RESTful APIs
+          with a strong focus on performance, security, and reliability.
+        </p>
+        <span class="tag">Laravel</span>
+        <span class="tag">Django</span>
+        <span class="tag">Flask</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Authentication & Authorization</span>
+        <span class="tag">SQLAlchemy</span>
+      </div>
 
-<footer>
-  <p>© <span id="year"></span> David King'asia. Built with HTML & CSS. Hosted on GitHub Pages.</p>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</footer>
+      <div class="card">
+        <h3>Mobile & Frontend Development</h3>
+        <p>
+          Development of production-ready cross-platform mobile applications and responsive user
+          interfaces with emphasis on usability and maintainability.
+        </p>
+        <span class="tag">Flutter</span>
+        <span class="tag">Android (Google Play Console)</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+      </div>
+
+      <div class="card">
+        <h3>Databases & Data Systems</h3>
+        <p>
+          Relational database design, data modeling, query optimization, and reporting for
+          business-critical applications.
+        </p>
+        <span class="tag">MySQL</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Database Design</span>
+        <span class="tag">ETL</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Advanced Excel</span>
+      </div>
+
+      <div class="card">
+        <h3>DevOps, Deployment & Infrastructure</h3>
+        <p>
+          Deployment and operation of web applications on Linux-based environments, including
+          containerization, web server configuration, and CI/CD workflows.
+        </p>
+        <span class="tag">Docker</span>
+        <span class="tag">Nginx</span>
+        <span class="tag">Linux</span>
+        <span class="tag">Git</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">Cloud Deployment</span>
+      </div>
+
+      <div class="card">
+        <h3>Software Engineering Practices</h3>
+        <p>
+          Strong adherence to professional software engineering principles, focusing on code quality,
+          collaboration, and long-term maintainability.
+        </p>
+        <span class="tag">System Design</span>
+        <span class="tag">Debugging & Troubleshooting</span>
+        <span class="tag">Version Control</span>
+        <span class="tag">Agile / Scrum</span>
+        <span class="tag">Technical Documentation</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Mobile App Experience</h2>
+    <div class="card">
+      <h3>Flutter Mobile Applications</h3>
+      <p>
+        Built, tested, and deployed <strong>4 production mobile applications</strong> using Flutter,
+        successfully published on the <strong>Google Play Store</strong> via Google Play Console.
+      </p>
+      <ul>
+        <li>End-to-end app development (UI, state management, API integration)</li>
+        <li>Release management, versioning, and store compliance</li>
+        <li>Bug fixes, updates, and performance improvements post-deployment</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Nipromote Market</h3>
+        <p> A modern online platform designed for selling hardware items. Built with a focus on
+          accessibility and scalability, the application provides a seamless shopping experience
+          across both Android and Web platforms.</p>
+        <p><strong>Tech:</strong> Flutter, Android, Firebase</p>
+      </div>
+      <div class="card">
+        <h3>AirBnB Clone – Deployment</h3>
+        <p>Automated deployment and configuration of web servers, load balancing, and static content
+          delivery for a scalable web application.</p>
+        <p><strong>Tech:</strong> Nginx, Fabric, Bash, Linux</p>
+      </div>
+      <div class="card">
+        <h3>Data Reporting & Analytics</h3>
+        <p>Designed and implemented data pipelines and dashboards to visualize CTQ metrics and
+          operational insights.</p>
+        <p><strong>Tech:</strong> Power BI, MySQL, Excel</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to collaborate, hire me, or discuss a project, feel free to reach out.</p>
+    <p>
+      📧 Email: <a href="mailto:kingasiadavid41@gmail.com">kingasiadavid41@gmail.com</a><br />
+      💻 GitHub: <a href="https://github.com/Dev-Kings" target="_blank">github.com/Dev-Kings</a><br />
+      🔗 LinkedIn: <a href="https://www.linkedin.com/in/davidkingasia/"
+        target="_blank">https://www.linkedin.com/in/davidkingasia/</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> David King'asia. Built with HTML & CSS. Hosted on GitHub Pages.</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
 
 </body>
+
 </html>
